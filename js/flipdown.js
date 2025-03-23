@@ -1,5 +1,5 @@
 var labels = ['wks', 'days', 'hrs', 'mins', 'secs'],
-    nextYear = (new Date('January 01, 2021 10:00:00')),
+    nextYear = (new Date('January 01, 2026 10:00:00')),
     template = _.template('<div class="time <%= label %>"><span class="count curr top"><%= curr %></span><span class="count next top"><%= next %></span><span class="count next bottom"><%= next %></span><span class="count curr bottom"><%= curr %></span><span class="label"><%= label.length < 6 ? label : label.substr(0, 3)  %></span></div>'),
     currDate = '00:00:00:00:00',
     nextDate = '00:00:00:00:00',
